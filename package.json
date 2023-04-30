@@ -1,0 +1,23 @@
+{
+  "name": "ethers-v6-zksync-compat",
+  "version": "0.1.0",
+  "description": "Polyfill fixes for the zkSync RPC",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/pintswap/ethers-v6-zksync-compat",
+  "author": "pintswap",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "ethers": "^6.3.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
